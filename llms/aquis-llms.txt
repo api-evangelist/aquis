@@ -1,0 +1,29 @@
+# Aquis Exchange
+
+Append `.md` to the jobs list or any individual job URL for a markdown version (for example https://careers.aquis.eu/jobs.md).
+
+## Open positions
+
+- [All open positions](https://careers.aquis.eu/jobs): Browse every currently open job. Also available as markdown at https://careers.aquis.eu/jobs.md and as a JSON Feed with embedded JobPosting data at https://careers.aquis.eu/jobs.json.
+- [Network Engineer](https://careers.aquis.eu/jobs/8455986-network-engineer): Infrastructure · London · Hybrid
+- [DevOps Engineer](https://careers.aquis.eu/jobs/8455422-devops-engineer): Infrastructure · London · Hybrid
+- [Senior Rapid Application Engineer](https://careers.aquis.eu/jobs/8455342-senior-rapid-application-engineer): Hybrid
+- [Rapid Application Engineer](https://careers.aquis.eu/jobs/8455184-rapid-application-engineer): Hybrid
+- [Senior Database Administrator](https://careers.aquis.eu/jobs/8388112-senior-database-administrator): Hybrid
+- [Development Engineer](https://careers.aquis.eu/jobs/8298726-development-engineer): Development · London · Hybrid
+- [Business Analyst - Senior Associate](https://careers.aquis.eu/jobs/8050152-business-analyst-senior-associate): Product · London · Hybrid
+- [Market Support Analyst](https://careers.aquis.eu/jobs/7951131-market-support-analyst): Operations · London · Hybrid
+- [Operations Analyst](https://careers.aquis.eu/jobs/7888358-operations-analyst): Operations · London · Hybrid
+- [Operations Support Manager](https://careers.aquis.eu/jobs/7767473-operations-support-manager): Operations · London · Hybrid
+
+## Optional
+
+- [People](https://careers.aquis.eu/people): The team behind Aquis Exchange.
+- [Departments](https://careers.aquis.eu/departments): Our departments.
+- [Locations](https://careers.aquis.eu/locations): Office locations.
+- [Posts](https://careers.aquis.eu/posts): Posts and updates from Aquis Exchange.
+- [Team stories](https://careers.aquis.eu/stories): Stories from people who work at Aquis Exchange.
+- [Privacy policy](https://careers.aquis.eu/privacy-policy): How candidate data is handled.
+- [Cookie policy](https://careers.aquis.eu/cookie-policy): Cookie usage and consent.
+- [Data privacy](https://careers.aquis.eu/data-privacy): Data privacy controls and rights.
+- [API catalog](https://careers.aquis.eu/.well-known/api-catalog): Machine-readable discovery document for available APIs.

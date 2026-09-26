@@ -1,23 +1,69 @@
 aid: aquis
+
 name: AQUIS
-description: 'AQUIS is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://aqx-web-prod-s3-public-read.s3.eu-west-2.amazonaws.com/placeholder_social_aquis_e1e50419e8.jpg
+
+description: 'Aquis Exchange is a creator and facilitator of next‑generation financial markets, offering accessible, simple and efficient stock exchanges, trading venues and technology. It provides market data, connectivity, and regulatory documentation for members and participants across Europe.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aquis/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
 - Company
-apis: []
+- Finance
+- Exchange
+- MarketData
+- Trading
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/aquis-llms.txt
+- type: WellKnown
+  url: well-known/aquis-well-known.yml
+- type: Hosts
+  url: hosts/aquis-hosts.yml
+- type: Vendors
+  url: vendors/aquis-vendors.yml
+- type: DomainSecurity
+  url: security/aquis-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.aquis.eu
+
+apis: []
+
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://www.nasdaqprivatemarket.com/
+    status: 200
