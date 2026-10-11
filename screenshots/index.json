@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "aquis",
+    "captured_at": "2026-10-11T175727",
+    "source_url": "https://www.aquis.eu",
+    "source_type": "Website",
+    "file": "aquis-2026-10-11T175727.png",
+    "bytes": 384064,
+    "capture": "playwright-local"
+  }
+]
