@@ -1,0 +1,145 @@
+edges:
+- partner_name: ISO 10383 (MIC)
+  partner: null
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
+  source: mic
+  category: registered trading venues and market segments
+  contract_reference:
+    register: ISO 10383 Market Identifier Codes (ISO 20022 registration authority)
+    spec_file: null
+    standard: ISO 10383
+    role: venue operator
+    matched_domain: aquis.eu
+    matched_by: domain:aquis.eu
+    categories:
+    - MLTF
+    - RMKT
+    operating_mics:
+    - AQEU
+    - AQSE
+    - AQXE
+    mics:
+    - mic: AQED
+      operating_mic: AQEU
+      segment: SGMT
+      market: AQUIS EXCHANGE EUROPE NON DISPLAY ORDER BOOK (NDOB)
+      category: MLTF
+      legal_name: AQUIS EXCHANGE EUROPE
+      country: FR
+    - mic: EIXE
+      operating_mic: AQXE
+      segment: SGMT
+      market: AQUIS EXCHANGE PLC AQUIS - EIX INFRASTRUCTURE BOND MARKET
+      category: MLTF
+      legal_name: AQUIS EXCHANGE PLC
+      country: GB
+    - mic: AQSE
+      operating_mic: AQSE
+      segment: OPRT
+      market: AQUIS STOCK EXCHANGE
+      category: RMKT
+      legal_name: AQUIS STOCK EXCHANGE LIMITED
+      country: GB
+    - mic: AQEU
+      operating_mic: AQEU
+      segment: OPRT
+      market: AQUIS EXCHANGE EUROPE
+      category: MLTF
+      legal_name: AQUIS EXCHANGE EUROPE
+      country: FR
+    - mic: AQEA
+      operating_mic: AQEU
+      segment: SGMT
+      market: AQUIS EXCHANGE EUROPE AUCTION ON DEMAND (AOD)
+      category: MLTF
+      legal_name: AQUIS EXCHANGE EUROPE
+      country: FR
+    - mic: AQXA
+      operating_mic: AQXE
+      segment: SGMT
+      market: AQUIS EXCHANGE PLC AUCTION ON DEMAND (AOD)
+      category: MLTF
+      legal_name: AQUIS EXCHANGE PLC
+      country: GB
+    - mic: AQXE
+      operating_mic: AQXE
+      segment: OPRT
+      market: AQUIS EXCHANGE PLC
+      category: MLTF
+      legal_name: AQUIS EXCHANGE PLC
+      country: GB
+    - mic: AQST
+      operating_mic: AQSE
+      segment: SGMT
+      market: AQSE TRADING (EQUITY)
+      category: MLTF
+      legal_name: AQUIS STOCK EXCHANGE LIMITED
+      country: GB
+    - mic: AQSL
+      operating_mic: AQSE
+      segment: SGMT
+      market: AQSE MAIN MARKET (EQUITY)
+      category: RMKT
+      legal_name: AQUIS STOCK EXCHANGE LIMITED
+      country: GB
+    - mic: AQSN
+      operating_mic: AQSE
+      segment: SGMT
+      market: AQSE TRADING (NON-EQUITY)
+      category: MLTF
+      legal_name: AQUIS STOCK EXCHANGE LIMITED
+      country: GB
+    - mic: AQSG
+      operating_mic: AQSE
+      segment: SGMT
+      market: AQSE GROWTH MARKET (EQUITY)
+      category: MLTF
+      legal_name: AQUIS STOCK EXCHANGE LIMITED
+      country: GB
+    - mic: AQSF
+      operating_mic: AQSE
+      segment: SGMT
+      market: AQSE GROWTH MARKET (NON-EQUITY)
+      category: MLTF
+      legal_name: AQUIS STOCK EXCHANGE LIMITED
+      country: GB
+    - mic: AQSD
+      operating_mic: AQSE
+      segment: SGMT
+      market: AQSE MAIN MARKET (NON-EQUITY)
+      category: RMKT
+      legal_name: AQUIS STOCK EXCHANGE LIMITED
+      country: GB
+    - mic: AQXD
+      operating_mic: AQXE
+      segment: SGMT
+      market: AQUIS EXCHANGE PLC AMP NON DISPLAY ORDER BOOK
+      category: MLTF
+      legal_name: AQUIS EXCHANGE PLC
+      country: GB
+    - mic: AVXE
+      operating_mic: AQXE
+      segment: SGMT
+      market: AQUIS EXCHANGE LIMITED - AQUIS VWAP MATCH (AVM)
+      category: MLTF
+      legal_name: AQUIS EXCHANGE LIMITED
+      country: GB
+    - mic: AVEU
+      operating_mic: AQEU
+      segment: SGMT
+      market: AQUIS EXCHANGE EUROPE - AQUIS VWAP MATCH (AVM)
+      category: MLTF
+      legal_name: AQUIS EXCHANGE EUROPE
+      country: FR
+    detected_by: sweep-capital-markets.py
+    detected: '2026-10-15'
+  detected_by: sweep-capital-markets.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+checked:
+- https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
